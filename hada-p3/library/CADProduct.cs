@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace library
 {
-    public class Class1
+    public class CADProduct
     {
+        public CADProduct() { 
+        
+        }
+        public bool Create(ENProduct en)
+        {
+
+        }
     }
 }
