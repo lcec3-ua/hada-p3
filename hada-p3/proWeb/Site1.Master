@@ -5,15 +5,60 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>HADA P3 - Productos</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+     <style>
+        .header {
+            background-color: #5fd1d1;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .userinfo {
+            text-align: left;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #f0f0f0;
+        }
+        .content {
+            padding: 20px;
+        }
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        .button-group {
+            margin-top: 15px;
+        }
+        .button-group button {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <!-- 1. Nombres de los usuarios -->
+        <div class="userinfo">
+            Lucía Gago - 50386645Q <br>
+            Lucía Cortés - 48784005Q
+        </div>
+
+        <!-- 2. Título principal -->
+        <div class="header">
+            <h1>HADA P3 - CURSO 2024/25</h1>
+        </div>
+
+        <!-- 3. Contenido del formulario (se llena desde Default.aspx) -->
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
         </div>
     </form>
 </body>
