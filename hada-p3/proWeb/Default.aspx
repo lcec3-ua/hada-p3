@@ -22,8 +22,9 @@
             <td>
                 <asp:DropDownList ID="ddlCategory" runat="server">
                     <asp:ListItem>Computing</asp:ListItem>
-                    <asp:ListItem>Electronics</asp:ListItem>
-                    <asp:ListItem>Home</asp:ListItem>
+                    <asp:ListItem>Telephony</asp:ListItem>
+                    <asp:ListItem>Gaming</asp:ListItem>
+                    <asp:ListItem>Home appliances</asp:ListItem>
                 </asp:DropDownList>
             </td>
         </tr>
